@@ -1,27 +1,27 @@
 const empreendimentos = [
     {
         link: "pdf/2.pdf",
-        imagem: "../Carol-e-Jessé/pdf/guagiru.png"
+        imagem: "../carol-e-jesse/pdf/guagiru.png"
     },
     {
         nome: "Parque do cocó",
         link: "pdf/BOOK_MOOD_PARQUE DO COCÓ (4).pdf",
-        imagem: "../Carol-e-Jessé/pdf/parque-do-coco.png"
+        imagem: "../carol-e-jesse/pdf/parque-do-coco.png"
     },
     {
         nome: "Cumbuco Diamond 6",
         link: "pdf/Cumbuco Diamond 6.pdf",
-        imagem: "../Carol-e-Jessé/pdf/cumbuco.png"
+        imagem: "../carol-e-jesse/pdf/cumbuco.png"
     },
     {
         nome: "Bairro de Fátima",
         link: "pdf/BOOK LUMINA RIVA DIGITAL.pdf",
-        imagem: "../Carol-e-Jessé/pdf/bairro-de-fatima.png"
+        imagem: "../carol-e-jesse/pdf/bairro-de-fatima.png"
     },
     {
         nome: "Maraponga",
         link: "pdf/BOOK CONQUISTA MARAPONGA.pdf",
-        imagem: "../Carol-e-Jessé/pdf/maraponga.png"
+        imagem: "../carol-e-jesse/pdf/maraponga.png"
     }
 ];
 

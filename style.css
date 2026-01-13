@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("../Carol-e-Jessé/Imagens/fundo-4.png");
+    background-image: url("../carol-e-jesse/Imagens/fundo-4.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -45,7 +45,7 @@ main {
     border-radius: 50%;
     border: 2px solid #ddd;
     background-color: #eee;
-    background-image: url("../Carol-e-Jessé/Imagens/lindos.jpg");
+    background-image: url("../carol-e-jesse/Imagens/lindos.jpg");
     background-size: cover;
 }
 
