@@ -123,11 +123,11 @@ main {
 }
 
 @media (max-width: 756px) {
-    .main {
+    main {
         padding: 0 10px;
     }
 
-    .empreendimento-container {
+    .empreendimentos-container {
         display: flex;
         flex-direction: column;
         align-items: center;
