@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: "Roboto";
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../Carol-e-Jessé/Imagens/fundo-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+main {
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #33333300;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1400px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    background-color: #eee;
+    background-image: url("../Carol-e-Jessé/Imagens/lindos.jpg");
+    background-size: cover;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.header-text p {
+    font-style: italic;
+    color: #fff;
+}
+
+.call-to-action {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.call-to-action h2 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.empreendimento-card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.empreendimento-card {
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgb(252, 252, 252);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-height: 200px;    
+}
+
+.empreendimento-card:hover {
+    transform: translate(-5px);
+    box-shadow: 0 6px 12px rgba(249, 248, 248, 0.15);
+}
+
+.empreendimento-card p {
+    margin: 0;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.whatsapp-button-section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25d366;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.whatsapp-button:hover {
+    background-color: #128c7e;
+}
+
+@media (max-width: 756px) {
+    .main {
+        padding: 0 10px;
+    }
+
+    .empreendimento-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .empreendimento-card {
+        width: 90%;
+        margin: 0 auto 20px auto;
+        min-height: 70px;
+    }
+
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-text h1 {
+        font-size: 1.8rem;
+    }
+
+    .header-text p {
+        font-size: 0.9rem;
+    }
+
+    .call-to-action h2 {
+        font-size: 1.5rem;
+    }
+}
