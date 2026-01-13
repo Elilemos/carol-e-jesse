@@ -6,7 +6,7 @@ const empreendimentos = [
     {
         nome: "Parque do cocó",
         link: "pdf/BOOK_MOOD_PARQUE DO COCÓ (4).pdf",
-        imagem: "../Carol-e-Jessé/pdf/parque-do-cocó.png"
+        imagem: "../Carol-e-Jessé/pdf/parque-do-coco.png"
     },
     {
         nome: "Cumbuco Diamond 6",
@@ -16,7 +16,7 @@ const empreendimentos = [
     {
         nome: "Bairro de Fátima",
         link: "pdf/BOOK LUMINA RIVA DIGITAL.pdf",
-        imagem: "../Carol-e-Jessé/pdf/bairro-de-fátima.png"
+        imagem: "../Carol-e-Jessé/pdf/bairro-de-fatima.png"
     },
     {
         nome: "Maraponga",
